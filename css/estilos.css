@@ -1,0 +1,41 @@
+body {
+    /* background: black; */
+    background-image: url("https://images.squarespace-cdn.com/content/v1/548a1190e4b0525d365cdde2/1419985105071-OWH23WJ1338B2ATBGYGQ/ke17ZwdGBToddI8pDm48kA9rhCjhJUYcQpKsBaLXN1ZZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIye_uGeP4isZUnhF2J4BSLX0iSmbQA7pLf20f1CNe8SkKMshLAGzx4R3EDFOm1kBS/website+background+color.jpg?format=1500w");
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+}
+    
+a {
+    color: teal;
+    text-decoration: none;
+}
+    
+a:hover {
+    /* color: red;   */
+    font-weight: bold;
+    text-decoration: underline;
+}
+    
+.menu {
+    background-color: lightgray;
+}
+    
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+    
+.menu li {
+    list-style: none;
+}
+    
+.site-subtitle,
+.site-title {
+    color: whitesmoke;     
+    text-align: center;
+}
+    
+.site-subtitle {
+    font-style: italic;
+}
